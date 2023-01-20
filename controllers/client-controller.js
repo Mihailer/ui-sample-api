@@ -17,7 +17,7 @@ class ClientController {
                 client_prepayment_amount,
                 client_prepayment_method,
                 client_interview,
-                client_comment
+          
             } = req.body
 
             console.log( client_tel_number )
@@ -35,7 +35,7 @@ class ClientController {
                 client_prepayment_amount,
                 client_prepayment_method,
                 client_interview,
-                client_comment
+    
             });
             
             res.json( newClient )
